@@ -130,4 +130,18 @@ describe("phone number", () => {
 			);
 		}
 	});
+
+	it('should return prefix info for more than 3 chars', () => {
+		expect(prefixInfo('03348')).toEqual({ 
+			operator: "Telecom Cambodia", length: 4
+		})
+
+		expect(phoneNumberInfo('033484422')).toEqual({ 
+			operator: "Telecom Cambodia", length: 4,
+			number: "033484422",
+			prefix: "03348",
+			suffix: "4422"
+		})
+		
+	})
 });
