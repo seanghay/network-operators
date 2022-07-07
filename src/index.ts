@@ -143,8 +143,19 @@ export function parsePhoneNumber(
 		return;
 	}
 
-	const prefix = input.slice(0, 3) as PhoneNumberPrefix;
-	const suffix = input.slice(3);
+	const allPrefix = prefixes()
+	
+	let prefix: PhoneNumberPrefix | null = null;
+
+	for (const p of allPrefix) {
+		if (input.startsWith(p)) {
+			prefix = p;
+			break;
+		}
+	}
+
+	if (!prefix) return;
+	const suffix = input.slice(prefix!.length);
 	return { prefix, suffix, number: input };
 }
 
