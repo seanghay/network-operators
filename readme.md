@@ -3,6 +3,7 @@
 A package for querying network operators in Cambodia.
 
 [![test](https://github.com/seanghay/network-operators/actions/workflows/test.yml/badge.svg)](https://github.com/seanghay/network-operators/actions/workflows/test.yml)
+[![npm](https://img.shields.io/npm/v/network-operators)](https://npmjs.com/package/network-operators)
 
 ## Install
 
