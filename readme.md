@@ -79,3 +79,7 @@ https://network.deno.dev/012888999
 ## License
 
 Apache-2.0
+
+## References
+
+[Telephone numbers in Cambodia](https://en.wikipedia.org/wiki/Telephone_numbers_in_Cambodia)
