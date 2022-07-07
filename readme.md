@@ -14,10 +14,20 @@ npm install network-operators
 
 ```js
 // ESM
-import { prefixInfo, phoneNumberInfo, networkOperators, parsePhoneNumber } from 'network-operators'
+import { 
+  prefixInfo, 
+  phoneNumberInfo, 
+  networkOperators, 
+  parsePhoneNumber 
+} from 'network-operators'
 
 // CJS
-const { prefixInfo, phoneNumberInfo, networkOperators, parsePhoneNumber } = require('network-operators')
+const { 
+  prefixInfo, 
+  phoneNumberInfo, 
+  networkOperators, 
+  parsePhoneNumber 
+} = require('network-operators')
 
 console.log(prefixInfo('012'))
 // { operator: 'Cellcard', length: [ 6, 7 ] }
