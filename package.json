@@ -1,6 +1,6 @@
 {
 	"name": "network-operators",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Networks Operators in Cambodia",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
