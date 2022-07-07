@@ -4,7 +4,25 @@ export class NetworkOperatorError extends Error {
 	}
 }
 
+// https://github.com/google/libphonenumber/blob/8a7f01e62e40d711863bd703295e56edb12b70a4/resources/carrier/en/855.txt
+
 export const PhoneNumberPrefixesWithOperators = {
+	"03248": { operator: "Telecom Cambodia", length: 4 },
+	"03348": { operator: "Telecom Cambodia", length: 4 },
+	"03448": { operator: "Telecom Cambodia", length: 4 },
+	"03548": { operator: "Telecom Cambodia", length: 4 },
+	"03648": { operator: "Telecom Cambodia", length: 4 },
+	"04248": { operator: "Telecom Cambodia", length: 4 },
+	"04348": { operator: "Telecom Cambodia", length: 4 },
+	"04448": { operator: "Telecom Cambodia", length: 4 },
+	"05248": { operator: "Telecom Cambodia", length: 4 },
+	"05348": { operator: "Telecom Cambodia", length: 4 },
+	"05448": { operator: "Telecom Cambodia", length: 4 },
+	"05548": { operator: "Telecom Cambodia", length: 4 },
+	"06248": { operator: "Telecom Cambodia", length: 4 },
+	"06348": { operator: "Telecom Cambodia", length: 4 },
+	"06448": { operator: "Telecom Cambodia", length: 4 },
+	"06548": { operator: "Telecom Cambodia", length: 4 },
 	"0235": { operator: "Cellcard", length: 6 },
 	"011": { operator: "Cellcard", length: 6 },
 	"012": { operator: "Cellcard", length: [6, 7] },
@@ -30,6 +48,10 @@ export const PhoneNumberPrefixesWithOperators = {
 	"067": { operator: "Metfone", length: 6 },
 	"068": { operator: "Metfone", length: 6 },
 	"071": { operator: "Metfone", length: 7 },
+	"07248": { operator: "Metfone", length: 5 },
+	"07348": { operator: "Metfone", length: 5 },
+	"07448": { operator: "Metfone", length: 5 },
+	"07548": { operator: "Metfone", length: 5 },
 	"088": { operator: "Metfone", length: 7 },
 	"090": { operator: "Metfone", length: 6 },
 	"097": { operator: "Metfone", length: 7 },

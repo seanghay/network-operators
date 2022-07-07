@@ -13,6 +13,7 @@ import {
 describe("phone number", () => {
 	it("networkOperators", () => {
 		expect(networkOperators()).toEqual([
+			"Telecom Cambodia",
 			"Cellcard",
 			"CooTel",
 			"Kingtel",
@@ -25,7 +26,7 @@ describe("phone number", () => {
 
 	it("prefixes", () => {
 		expect(prefixes()).toBeTypeOf("object");
-		expect(prefixes().length).toEqual(43);
+		expect(prefixes().length).toEqual(63);
 	});
 
 	it("should be Cellcard", () => {
