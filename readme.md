@@ -6,8 +6,21 @@ A package for query network operators in Cambodia.
 
 ## Install
 
+npm
+
 ```
 npm install network-operators
+```
+
+pnpm
+
+```
+pnpm add network-operators
+```
+
+yarn
+```
+yarn add network-operators
 ```
 
 ## Usage
