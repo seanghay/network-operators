@@ -1,53 +1,53 @@
 {
-  "name": "network-operators",
-  "version": "0.0.0",
-  "description": "Networks Operators in Cambodia",
-  "main": "./dist/index.js.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
-  "scripts": {
-    "build": "tsup",
-    "test": "vitest",
-    "test:ci": "cross-env CI=true NODE_ENV=production vitest --run",
-    "prepublishOnly": "tsup",
-    "release": "bumpp"
-  },
-  "sideEffects": false,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/seanghay/network-operators.git"
-  },
-  "files": [
-    "dist"
-  ],
-  "keywords": [
-    "seatel",
-    "network-operators",
-    "cambodia",
-    "telephone",
-    "telecom",
-    "cellcard",
-    "smart",
-    "metfone"
-  ],
-  "author": "Seanghay Yath <seanghay.dev@gmail.com>",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/seanghay/network-operators/issues"
-  },
-  "homepage": "https://github.com/seanghay/network-operators#readme",
-  "devDependencies": {
-    "bumpp": "^8.2.1",
-    "cross-env": "^7.0.3",
-    "tsup": "^6.1.3",
-    "typescript": "^4.7.4",
-    "vitest": "^0.17.0"
-  }
+	"name": "network-operators",
+	"version": "0.0.0",
+	"description": "Networks Operators in Cambodia",
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.mjs",
+			"require": "./dist/index.js",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"build": "tsup",
+		"test": "vitest",
+		"test:ci": "cross-env CI=true NODE_ENV=production vitest --run",
+		"prepublishOnly": "tsup",
+		"release": "bumpp"
+	},
+	"sideEffects": false,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/seanghay/network-operators.git"
+	},
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"seatel",
+		"network-operators",
+		"cambodia",
+		"telephone",
+		"telecom",
+		"cellcard",
+		"smart",
+		"metfone"
+	],
+	"author": "Seanghay Yath <seanghay.dev@gmail.com>",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/seanghay/network-operators/issues"
+	},
+	"homepage": "https://github.com/seanghay/network-operators#readme",
+	"devDependencies": {
+		"bumpp": "^8.2.1",
+		"cross-env": "^7.0.3",
+		"tsup": "^6.1.3",
+		"typescript": "^4.7.4",
+		"vitest": "^0.17.0"
+	}
 }
