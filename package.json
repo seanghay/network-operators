@@ -19,7 +19,7 @@
     "prepublishOnly": "tsup",
     "release": "bumpp"
   },
-  "sideEffects": true,
+  "sideEffects": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seanghay/network-operators.git"
